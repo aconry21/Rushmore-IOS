@@ -15,6 +15,7 @@
 		59844DB0216464CC00325578 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59844DAE216464CC00325578 /* LaunchScreen.storyboard */; };
 		59844DBB216464CC00325578 /* RushmoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59844DBA216464CC00325578 /* RushmoreTests.swift */; };
 		59844DC6216464CC00325578 /* RushmoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59844DC5216464CC00325578 /* RushmoreUITests.swift */; };
+		59844DD6216474A300325578 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59844DD5216474A300325578 /* ViewController1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		59844DC1216464CC00325578 /* RushmoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RushmoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		59844DC5216464CC00325578 /* RushmoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RushmoreUITests.swift; sourceTree = "<group>"; };
 		59844DC7216464CC00325578 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59844DD5216474A300325578 /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				59844DA3216464CB00325578 /* AppDelegate.swift */,
 				59844DA5216464CB00325578 /* FirstViewController.swift */,
 				59844DA7216464CB00325578 /* SecondViewController.swift */,
+				59844DD5216474A300325578 /* ViewController1.swift */,
 				59844DA9216464CB00325578 /* Main.storyboard */,
 				59844DAC216464CC00325578 /* Assets.xcassets */,
 				59844DAE216464CC00325578 /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59844DD6216474A300325578 /* ViewController1.swift in Sources */,
 				59844DA8216464CB00325578 /* SecondViewController.swift in Sources */,
 				59844DA4216464CB00325578 /* AppDelegate.swift in Sources */,
 				59844DA6216464CB00325578 /* FirstViewController.swift in Sources */,
