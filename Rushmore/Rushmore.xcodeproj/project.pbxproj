@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59530D2721869ADA00893736 /* MemberProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59530D2621869ADA00893736 /* MemberProfile.swift */; };
+		59530D2921869BE200893736 /* RusheeProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59530D2821869BE200893736 /* RusheeProfile.swift */; };
+		59530D2D2186DBAD00893736 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59530D2C2186DBAD00893736 /* User.swift */; };
+		59530D2F2186DD6B00893736 /* RusheeRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59530D2E2186DD6B00893736 /* RusheeRegister.swift */; };
+		59530D3421880A8C00893736 /* EditRusheeProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59530D3321880A8C00893736 /* EditRusheeProfile.swift */; };
+		59535823219667E000C3A4A1 /* MemberFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59535822219667E000C3A4A1 /* MemberFeedCell.swift */; };
+		595358252196685100C3A4A1 /* MemberFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595358242196685100C3A4A1 /* MemberFeed.swift */; };
 		59844DA4216464CB00325578 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59844DA3216464CB00325578 /* AppDelegate.swift */; };
-		59844DA6216464CB00325578 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59844DA5216464CB00325578 /* FirstViewController.swift */; };
-		59844DA8216464CB00325578 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59844DA7216464CB00325578 /* SecondViewController.swift */; };
 		59844DAB216464CB00325578 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59844DA9216464CB00325578 /* Main.storyboard */; };
 		59844DAD216464CC00325578 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59844DAC216464CC00325578 /* Assets.xcassets */; };
 		59844DB0216464CC00325578 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59844DAE216464CC00325578 /* LaunchScreen.storyboard */; };
 		59844DBB216464CC00325578 /* RushmoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59844DBA216464CC00325578 /* RushmoreTests.swift */; };
 		59844DC6216464CC00325578 /* RushmoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59844DC5216464CC00325578 /* RushmoreUITests.swift */; };
-		59844DD6216474A300325578 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59844DD5216474A300325578 /* ViewController1.swift */; };
+		59844DD6216474A300325578 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59844DD5216474A300325578 /* Login.swift */; };
+		599330B72188E2F200925D73 /* EditMemberProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599330B62188E2F200925D73 /* EditMemberProfile.swift */; };
+		599330B921899F0B00925D73 /* RusheeFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599330B821899F0A00925D73 /* RusheeFeed.swift */; };
+		599330BB2189A30B00925D73 /* RusheeFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599330BA2189A30B00925D73 /* RusheeFeedCell.swift */; };
+		599330BD2189A43B00925D73 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599330BC2189A43A00925D73 /* Post.swift */; };
+		59E6CA5E21754ECF00514655 /* MemberRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E6CA5D21754ECF00514655 /* MemberRegister.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +46,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		59530D2621869ADA00893736 /* MemberProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberProfile.swift; sourceTree = "<group>"; };
+		59530D2821869BE200893736 /* RusheeProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RusheeProfile.swift; sourceTree = "<group>"; };
+		59530D2C2186DBAD00893736 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		59530D2E2186DD6B00893736 /* RusheeRegister.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RusheeRegister.swift; sourceTree = "<group>"; };
+		59530D3321880A8C00893736 /* EditRusheeProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditRusheeProfile.swift; sourceTree = "<group>"; };
+		59535822219667E000C3A4A1 /* MemberFeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberFeedCell.swift; sourceTree = "<group>"; };
+		595358242196685100C3A4A1 /* MemberFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberFeed.swift; sourceTree = "<group>"; };
 		59844DA0216464CB00325578 /* Rushmore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rushmore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59844DA3216464CB00325578 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		59844DA5216464CB00325578 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		59844DA7216464CB00325578 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		59844DAA216464CB00325578 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		59844DAC216464CC00325578 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59844DAF216464CC00325578 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -50,7 +65,12 @@
 		59844DC1216464CC00325578 /* RushmoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RushmoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		59844DC5216464CC00325578 /* RushmoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RushmoreUITests.swift; sourceTree = "<group>"; };
 		59844DC7216464CC00325578 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		59844DD5216474A300325578 /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		59844DD5216474A300325578 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		599330B62188E2F200925D73 /* EditMemberProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMemberProfile.swift; sourceTree = "<group>"; };
+		599330B821899F0A00925D73 /* RusheeFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RusheeFeed.swift; sourceTree = "<group>"; };
+		599330BA2189A30B00925D73 /* RusheeFeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RusheeFeedCell.swift; sourceTree = "<group>"; };
+		599330BC2189A43A00925D73 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		59E6CA5D21754ECF00514655 /* MemberRegister.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberRegister.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,9 +122,19 @@
 			isa = PBXGroup;
 			children = (
 				59844DA3216464CB00325578 /* AppDelegate.swift */,
-				59844DA5216464CB00325578 /* FirstViewController.swift */,
-				59844DA7216464CB00325578 /* SecondViewController.swift */,
-				59844DD5216474A300325578 /* ViewController1.swift */,
+				59844DD5216474A300325578 /* Login.swift */,
+				59530D2C2186DBAD00893736 /* User.swift */,
+				59E6CA5D21754ECF00514655 /* MemberRegister.swift */,
+				59530D2E2186DD6B00893736 /* RusheeRegister.swift */,
+				59530D2821869BE200893736 /* RusheeProfile.swift */,
+				59530D3321880A8C00893736 /* EditRusheeProfile.swift */,
+				59530D2621869ADA00893736 /* MemberProfile.swift */,
+				599330B62188E2F200925D73 /* EditMemberProfile.swift */,
+				599330BC2189A43A00925D73 /* Post.swift */,
+				599330B821899F0A00925D73 /* RusheeFeed.swift */,
+				595358242196685100C3A4A1 /* MemberFeed.swift */,
+				59535822219667E000C3A4A1 /* MemberFeedCell.swift */,
+				599330BA2189A30B00925D73 /* RusheeFeedCell.swift */,
 				59844DA9216464CB00325578 /* Main.storyboard */,
 				59844DAC216464CC00325578 /* Assets.xcassets */,
 				59844DAE216464CC00325578 /* LaunchScreen.storyboard */,
@@ -262,10 +292,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59844DD6216474A300325578 /* ViewController1.swift in Sources */,
-				59844DA8216464CB00325578 /* SecondViewController.swift in Sources */,
+				59530D2921869BE200893736 /* RusheeProfile.swift in Sources */,
+				59844DD6216474A300325578 /* Login.swift in Sources */,
+				59530D2F2186DD6B00893736 /* RusheeRegister.swift in Sources */,
+				599330B921899F0B00925D73 /* RusheeFeed.swift in Sources */,
+				59535823219667E000C3A4A1 /* MemberFeedCell.swift in Sources */,
+				599330BD2189A43B00925D73 /* Post.swift in Sources */,
+				595358252196685100C3A4A1 /* MemberFeed.swift in Sources */,
+				59E6CA5E21754ECF00514655 /* MemberRegister.swift in Sources */,
 				59844DA4216464CB00325578 /* AppDelegate.swift in Sources */,
-				59844DA6216464CB00325578 /* FirstViewController.swift in Sources */,
+				599330B72188E2F200925D73 /* EditMemberProfile.swift in Sources */,
+				59530D2721869ADA00893736 /* MemberProfile.swift in Sources */,
+				59530D2D2186DBAD00893736 /* User.swift in Sources */,
+				59530D3421880A8C00893736 /* EditRusheeProfile.swift in Sources */,
+				599330BB2189A30B00925D73 /* RusheeFeedCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

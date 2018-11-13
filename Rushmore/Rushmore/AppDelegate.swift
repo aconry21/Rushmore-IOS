@@ -12,10 +12,27 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    static var Members = [User]()
+    static var Rushees = [User]()
+    
+    
+    
+    
+    static var curr_login = Members[0]
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        AppDelegate.Members.append(User(firstName: "Austin", lastName: "Conry", userName: "aconry", password: "1234", type: 1, fraternity: ["Theta Tau"]))
+        AppDelegate.Members.append(User(firstName: "first1", lastName: "Last1", userName: "mem1", password: "pass1", type: 1, fraternity: ["Sigma Alpha Epsilon"]))
+        AppDelegate.Members.append(User(firstName: "first2", lastName: "last2", userName: "mem2", password: "pass2", type: 1, fraternity: ["Theta Tau"]))
+        
+        AppDelegate.Rushees.append(User(firstName: "first1", lastName: "last1", userName: "rush1", password: "pass1", type: 0, fraternity: ["Theta Tau"]))
+        AppDelegate.Rushees.append(User(firstName: "first2", lastName: "last2", userName: "rush2", password: "pass2", type: 0, fraternity: ["Theta Tau"]))
+        AppDelegate.Rushees.append(User(firstName: "first3", lastName: "last3", userName: "rush3", password: "pass3", type: 0, fraternity: ["Theta Tau"]))
+
+
+
+        
         return true
     }
 
