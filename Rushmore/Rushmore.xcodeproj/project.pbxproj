@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19CF5043484A73424D47AF8C /* Pods_RushmoreUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C44407A7F0A2541860B1E517 /* Pods_RushmoreUITests.framework */; };
 		59530D2721869ADA00893736 /* MemberProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59530D2621869ADA00893736 /* MemberProfile.swift */; };
 		59530D2921869BE200893736 /* RusheeProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59530D2821869BE200893736 /* RusheeProfile.swift */; };
 		59530D2D2186DBAD00893736 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59530D2C2186DBAD00893736 /* User.swift */; };
@@ -14,6 +15,9 @@
 		59530D3421880A8C00893736 /* EditRusheeProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59530D3321880A8C00893736 /* EditRusheeProfile.swift */; };
 		59535823219667E000C3A4A1 /* MemberFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59535822219667E000C3A4A1 /* MemberFeedCell.swift */; };
 		595358252196685100C3A4A1 /* MemberFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595358242196685100C3A4A1 /* MemberFeed.swift */; };
+		5961E04E219B845E00E83130 /* AWSAuthCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5961E04D219B845E00E83130 /* AWSAuthCore.framework */; };
+		5961E050219B846400E83130 /* AWSMobileClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5961E04F219B846400E83130 /* AWSMobileClient.framework */; };
+		5961E052219B846800E83130 /* AWSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5961E051219B846800E83130 /* AWSCore.framework */; };
 		59844DA4216464CB00325578 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59844DA3216464CB00325578 /* AppDelegate.swift */; };
 		59844DAB216464CB00325578 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59844DA9216464CB00325578 /* Main.storyboard */; };
 		59844DAD216464CC00325578 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59844DAC216464CC00325578 /* Assets.xcassets */; };
@@ -25,7 +29,10 @@
 		599330B921899F0B00925D73 /* RusheeFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599330B821899F0A00925D73 /* RusheeFeed.swift */; };
 		599330BB2189A30B00925D73 /* RusheeFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599330BA2189A30B00925D73 /* RusheeFeedCell.swift */; };
 		599330BD2189A43B00925D73 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599330BC2189A43A00925D73 /* Post.swift */; };
+		59A4EC36219B7D1B002ABF1D /* awsconfiguration (2).json in Resources */ = {isa = PBXBuildFile; fileRef = 59A4EC35219B7D1B002ABF1D /* awsconfiguration (2).json */; };
 		59E6CA5E21754ECF00514655 /* MemberRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E6CA5D21754ECF00514655 /* MemberRegister.swift */; };
+		9D322460830859BD53ABBA1D /* Pods_RushmoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20C0009AF760F47CFF688EDF /* Pods_RushmoreTests.framework */; };
+		A26C85B9A17806B8CF7E35B6 /* Pods_Rushmore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A05A5409262A9E7ED63D1C /* Pods_Rushmore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +53,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		056426D66F97BB3E82E21AED /* Pods-RushmoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RushmoreTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RushmoreTests/Pods-RushmoreTests.release.xcconfig"; sourceTree = "<group>"; };
+		16C42155C0F9D36AC0B0B7E7 /* Pods-RushmoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RushmoreTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RushmoreTests/Pods-RushmoreTests.debug.xcconfig"; sourceTree = "<group>"; };
+		20C0009AF760F47CFF688EDF /* Pods_RushmoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RushmoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CB71CF287E149A1A64A9293 /* Pods-RushmoreUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RushmoreUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RushmoreUITests/Pods-RushmoreUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3E2ABC2CEAE7208F0F7CC4B3 /* Pods-Rushmore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rushmore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rushmore/Pods-Rushmore.debug.xcconfig"; sourceTree = "<group>"; };
+		53A05A5409262A9E7ED63D1C /* Pods_Rushmore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rushmore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		59530D2621869ADA00893736 /* MemberProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberProfile.swift; sourceTree = "<group>"; };
 		59530D2821869BE200893736 /* RusheeProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RusheeProfile.swift; sourceTree = "<group>"; };
 		59530D2C2186DBAD00893736 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -53,6 +66,9 @@
 		59530D3321880A8C00893736 /* EditRusheeProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditRusheeProfile.swift; sourceTree = "<group>"; };
 		59535822219667E000C3A4A1 /* MemberFeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberFeedCell.swift; sourceTree = "<group>"; };
 		595358242196685100C3A4A1 /* MemberFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberFeed.swift; sourceTree = "<group>"; };
+		5961E04D219B845E00E83130 /* AWSAuthCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AWSAuthCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5961E04F219B846400E83130 /* AWSMobileClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AWSMobileClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5961E051219B846800E83130 /* AWSCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AWSCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		59844DA0216464CB00325578 /* Rushmore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rushmore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59844DA3216464CB00325578 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		59844DAA216464CB00325578 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -70,7 +86,11 @@
 		599330B821899F0A00925D73 /* RusheeFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RusheeFeed.swift; sourceTree = "<group>"; };
 		599330BA2189A30B00925D73 /* RusheeFeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RusheeFeedCell.swift; sourceTree = "<group>"; };
 		599330BC2189A43A00925D73 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		59A4EC35219B7D1B002ABF1D /* awsconfiguration (2).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "awsconfiguration (2).json"; path = "../../../../../../var/folders/b7/xn5vk0591793r8y49p82f99r0000gp/T/com.apple.iChat/Messages/Transfers/awsconfiguration (2).json"; sourceTree = "<group>"; };
 		59E6CA5D21754ECF00514655 /* MemberRegister.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberRegister.swift; sourceTree = "<group>"; };
+		6746FDE5A0D6691379C00129 /* Pods-RushmoreUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RushmoreUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RushmoreUITests/Pods-RushmoreUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A21729A22306BA5B827AD46C /* Pods-Rushmore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rushmore.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rushmore/Pods-Rushmore.release.xcconfig"; sourceTree = "<group>"; };
+		C44407A7F0A2541860B1E517 /* Pods_RushmoreUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RushmoreUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +98,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5961E052219B846800E83130 /* AWSCore.framework in Frameworks */,
+				5961E050219B846400E83130 /* AWSMobileClient.framework in Frameworks */,
+				5961E04E219B845E00E83130 /* AWSAuthCore.framework in Frameworks */,
+				A26C85B9A17806B8CF7E35B6 /* Pods_Rushmore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D322460830859BD53ABBA1D /* Pods_RushmoreTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,12 +117,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19CF5043484A73424D47AF8C /* Pods_RushmoreUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		036A3017C41A807339FEDBD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5961E051219B846800E83130 /* AWSCore.framework */,
+				5961E04F219B846400E83130 /* AWSMobileClient.framework */,
+				5961E04D219B845E00E83130 /* AWSAuthCore.framework */,
+				53A05A5409262A9E7ED63D1C /* Pods_Rushmore.framework */,
+				20C0009AF760F47CFF688EDF /* Pods_RushmoreTests.framework */,
+				C44407A7F0A2541860B1E517 /* Pods_RushmoreUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		59844D97216464CB00325578 = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +144,8 @@
 				59844DB9216464CC00325578 /* RushmoreTests */,
 				59844DC4216464CC00325578 /* RushmoreUITests */,
 				59844DA1216464CB00325578 /* Products */,
+				DFA352270991D1B79F64CA7D /* Pods */,
+				036A3017C41A807339FEDBD6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,6 +180,7 @@
 				59844DAC216464CC00325578 /* Assets.xcassets */,
 				59844DAE216464CC00325578 /* LaunchScreen.storyboard */,
 				59844DB1216464CC00325578 /* Info.plist */,
+				59A4EC35219B7D1B002ABF1D /* awsconfiguration (2).json */,
 			);
 			path = Rushmore;
 			sourceTree = "<group>";
@@ -161,6 +203,19 @@
 			path = RushmoreUITests;
 			sourceTree = "<group>";
 		};
+		DFA352270991D1B79F64CA7D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E2ABC2CEAE7208F0F7CC4B3 /* Pods-Rushmore.debug.xcconfig */,
+				A21729A22306BA5B827AD46C /* Pods-Rushmore.release.xcconfig */,
+				16C42155C0F9D36AC0B0B7E7 /* Pods-RushmoreTests.debug.xcconfig */,
+				056426D66F97BB3E82E21AED /* Pods-RushmoreTests.release.xcconfig */,
+				6746FDE5A0D6691379C00129 /* Pods-RushmoreUITests.debug.xcconfig */,
+				3CB71CF287E149A1A64A9293 /* Pods-RushmoreUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -168,6 +223,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 59844DCA216464CC00325578 /* Build configuration list for PBXNativeTarget "Rushmore" */;
 			buildPhases = (
+				8B117BD13C5DDA1D73113602 /* [CP] Check Pods Manifest.lock */,
 				59844D9C216464CB00325578 /* Sources */,
 				59844D9D216464CB00325578 /* Frameworks */,
 				59844D9E216464CB00325578 /* Resources */,
@@ -185,6 +241,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 59844DCD216464CC00325578 /* Build configuration list for PBXNativeTarget "RushmoreTests" */;
 			buildPhases = (
+				B509950D726A31D7015A9204 /* [CP] Check Pods Manifest.lock */,
 				59844DB2216464CC00325578 /* Sources */,
 				59844DB3216464CC00325578 /* Frameworks */,
 				59844DB4216464CC00325578 /* Resources */,
@@ -203,6 +260,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 59844DD0216464CC00325578 /* Build configuration list for PBXNativeTarget "RushmoreUITests" */;
 			buildPhases = (
+				E02EC2501E393A5D3950A0F5 /* [CP] Check Pods Manifest.lock */,
 				59844DBD216464CC00325578 /* Sources */,
 				59844DBE216464CC00325578 /* Frameworks */,
 				59844DBF216464CC00325578 /* Resources */,
@@ -268,6 +326,7 @@
 				59844DB0216464CC00325578 /* LaunchScreen.storyboard in Resources */,
 				59844DAD216464CC00325578 /* Assets.xcassets in Resources */,
 				59844DAB216464CB00325578 /* Main.storyboard in Resources */,
+				59A4EC36219B7D1B002ABF1D /* awsconfiguration (2).json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +345,63 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8B117BD13C5DDA1D73113602 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rushmore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B509950D726A31D7015A9204 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RushmoreTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E02EC2501E393A5D3950A0F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RushmoreUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		59844D9C216464CB00325578 /* Sources */ = {
@@ -476,6 +592,7 @@
 		};
 		59844DCB216464CC00325578 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E2ABC2CEAE7208F0F7CC4B3 /* Pods-Rushmore.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -493,6 +610,7 @@
 		};
 		59844DCC216464CC00325578 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A21729A22306BA5B827AD46C /* Pods-Rushmore.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -510,6 +628,7 @@
 		};
 		59844DCE216464CC00325578 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16C42155C0F9D36AC0B0B7E7 /* Pods-RushmoreTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -530,6 +649,7 @@
 		};
 		59844DCF216464CC00325578 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 056426D66F97BB3E82E21AED /* Pods-RushmoreTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -550,6 +670,7 @@
 		};
 		59844DD1216464CC00325578 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6746FDE5A0D6691379C00129 /* Pods-RushmoreUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -569,6 +690,7 @@
 		};
 		59844DD2216464CC00325578 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CB71CF287E149A1A64A9293 /* Pods-RushmoreUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
